@@ -8,6 +8,6 @@ public class FirstController {
 
     @RequestMapping("/")
     public String showFirstView(){
-        return "/WEB-INF/view/first-view.jsp";
+        return "first-view";
     }
 }
